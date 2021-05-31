@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: spencer_bagfile_tools
+Description: Description of spencer_bagfile_tools
+Version: 1.0.11
+Cflags: -I/home/jtpau/TFM/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

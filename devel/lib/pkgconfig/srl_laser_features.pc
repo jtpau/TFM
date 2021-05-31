@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: srl_laser_features
+Description: Description of srl_laser_features
+Version: 1.0.11
+Cflags: -I/home/jtpau/TFM/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/include
+Libs: -L${prefix}/lib -lsrl_laser_features
+Requires: roscpp eigen_conversions

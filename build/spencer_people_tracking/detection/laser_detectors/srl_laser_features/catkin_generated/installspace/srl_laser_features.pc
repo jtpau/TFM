@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/install
+
+Name: srl_laser_features
+Description: Description of srl_laser_features
+Version: 1.0.11
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsrl_laser_features
+Requires: roscpp eigen_conversions

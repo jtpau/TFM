@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: agribot_local_planner
+Description: Description of agribot_local_planner
+Version: 0.0.0
+Cflags: -I/home/jtpau/TFM/devel/include
+Libs: -L${prefix}/lib -lagribot_local_planner
+Requires: roscpp tf dynamic_reconfigure costmap_2d geometry_msgs nav_core pluginlib

@@ -1,0 +1,69 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~yaw_goal_tolerance_dyn" : \b [double] yaw_goal_tolerance min: 0.0, default: 0.2, max: 1.0
+- \b "~xy_goal_tolerance_dyn" : \b [double] xy_goal_tolerancer min: 0.0, default: 0.35, max: 1.0
+- \b "~rot_stopped_vel_dyn" : \b [double] Min rot velocity min: 0.0, default: 0.01, max: 1.3
+- \b "~trans_stopped_vel_dyn" : \b [double] Min Trans velocity min: 0.0, default: 0.01, max: 1.3
+- \b "~eband_min_relative_bubble_overlap_dyn" : \b [double] eband_min_relative_bubble_overlap min: 0.0, default: 0.7, max: 10.0
+- \b "~eband_tiny_bubble_distance_dyn" : \b [double] eband_tiny_bubble_distance min: 0.0, default: 0.01, max: 100.0
+- \b "~eband_tiny_bubble_expansion_dyn" : \b [double] eband_tiny_bubble_expansion min: 0.0, default: 0.01, max: 100.0
+- \b "~eband_internal_force_gain_dyn" : \b [double] eband_internal_force_gain min: 0.0, default: 1.5, max: 100.0
+- \b "~eband_external_force_gain_dyn" : \b [double] eband_external_force_gain min: 0.0, default: 0.65, max: 100.0
+- \b "~num_iterations_eband_optimization_dyn" : \b [int] num_iterations_eband_optimization min: 1, default: 6, max: 100
+- \b "~eband_equilibrium_approx_max_recursion_depth_dyn" : \b [double] eband_equilibrium_approx_max_recursion_depth min: 1.0, default: 4.0, max: 100.0
+- \b "~eband_equilibrium_relative_overshoot_dyn" : \b [double] eband_equilibrium_relative_overshoot min: 0.1, default: 0.75, max: 100.0
+- \b "~eband_significant_force_lower_bound_dyn" : \b [double] eband_significant_force_lower_bound min: 0.1, default: 0.15, max: 100.0
+- \b "~max_translational_acceleration_dyn" : \b [double] max_translational_acceleration min: 0.0, default: 0.125, max: 100.0
+- \b "~max_rotational_acceleration_dyn" : \b [double] max_rotational_acceleration min: 0.0, default: 0.9, max: 100.0
+- \b "~max_rotational_velocity_turning_on_spot_dyn" : \b [double] max_rotational_velocity turning on the post min: 0.0, default: 0.25, max: 3.14
+- \b "~max_acceleration_dyn" : \b [double] max_acceleration min: 0.0, default: 0.1, max: 100.0
+- \b "~limit_acc_dyn" : \b [bool] Limit the variation of the velocity (reads as input max_translational_acceleration_dyn) min: False, default: True, max: True
+- \b "~max_vel_lin_dyn" : \b [double] max_vel_lin min: 0.0, default: 1.3, max: 100.0
+- \b "~min_vel_lin_dyn" : \b [double] min_vel_lin min: 0.0, default: 0.05, max: 100.0
+- \b "~max_vel_th_dyn" : \b [double] max_vel_th min: 0.0, default: 1.57, max: 100.0
+- \b "~min_vel_th_dyn" : \b [double] max_in_place_vel_th min: 0.0, default: 0.0, max: 100.0
+- \b "~min_in_place_vel_th_dyn" : \b [double] min_in_place_vel_th min: 0.0, default: 0.15, max: 100.0
+- \b "~in_place_trans_vel_dyn" : \b [double] in_place_trans_vel min: 0.0, default: 0.0, max: 100.0
+- \b "~rot_stopping_turn_on_the_spot_dyn" : \b [double] To which yaw value to stop the turning on the spot min: 0.0, default: 0.02, max: 1.54
+- \b "~trans_vel_goal_dyn" : \b [double] translational vel while approaching min: 0.1, default: 0.5, max: 1.3
+- \b "~start_to_stop_goal_dyn" : \b [double] Start distance to stop the robot min: 1.0, default: 1.5, max: 5.0
+- \b "~number_tentative_setting_band_dyn" : \b [int] Number of attemps to fix the band min: 0, default: 2, max: 50
+- \b "~k_prop_dyn" : \b [double] k_prop min: 0.0, default: 1.5, max: 100.0
+- \b "~k_damp_dyn" : \b [double] k_damp min: 0.0, default: 3.0, max: 100.0
+- \b "~Ts_dyn" : \b [double] Ts min: 0.0, default: 0.1, max: 100.0
+- \b "~Kv_one_dyn" : \b [double] Kv_one min: 0.0, default: 0.9, max: 100.0
+- \b "~Kv_two_dyn" : \b [double] Kv_two min: 0.0, default: 0.9, max: 100.0
+- \b "~Vel_gain_dyn" : \b [double] Vel_gain min: 0.0, default: 2.745, max: 100.0
+- \b "~B_dyn" : \b [double] B min: 0.01, default: 0.7, max: 100.0
+- \b "~smoothed_eband_dyn" : \b [bool] smoothed_eband min: False, default: False, max: True
+- \b "~tracker_on" : \b [bool] tracker_on min: False, default: False, max: True
+- \b "~backward_motion_on_dyn" : \b [bool] backward_motion_on min: False, default: True, max: True
+- \b "~limit_vel_based_laser_points_density_dyn" : \b [bool] Check if to limit the translational velocity based on laser points density min: False, default: True, max: True
+- \b "~warning_robot_radius_dyn" : \b [double] Radius in which check how many point are close to the robot min: 0.1, default: 0.45, max: 30.0
+- \b "~max_path_length_to_check_points" : \b [double] Maximum path length into which to check if a laser point is into the path min: 0.0, default: 3.2, max: 20.0
+- \b "~warning_robot_angle_dyn" : \b [double] warning_robot_angle_ min: 0.1, default: 0.9, max: 10.0
+- \b "~max_translational_vel_due_to_laser_points_density_dyn" : \b [double] max_translational_vel_due_to_laser_points_density_dyn min: 0.1, default: 0.65, max: 10.0
+- \b "~limit_vel_based_on_curvature" : \b [bool] Limiting Velocities based on curvature min: False, default: False, max: True
+- \b "~curvature_guarding_thrs" : \b [double] Max Value of Curvature above which the planner starts to decrase velocity min: 0.0, default: 0.75, max: 100.0
+- \b "~min_vel_limited_curvature" : \b [double] Max Value of Curvature above which the planner starts to decrase velocity min: 0.0, default: 0.75, max: 100.0
+- \b "~limit_vel_based_collision_warnings" : \b [bool] Limiting Velocities based on collision warnings min: False, default: True, max: True
+- \b "~max_vel_collision_warning" : \b [double] Max Value of the velocity if collision warnings are on min: 0.0, default: 0.65, max: 1.3
+- \b "~human_legibility_on_dyn" : \b [bool] Include velocity limitations based on human_legibility min: False, default: False, max: True
+- \b "~cc_d_low" : \b [double] minimum distance between human and robot for comaptibility calculations min: 0.0, default: 0.7, max: 100.0
+- \b "~cc_d_high" : \b [double] maximum distance between human and robot for comaptibility calculations min: 0.0, default: 10.0, max: 100.0
+- \b "~cc_alpha_max" : \b [double] maximum angle difference between human and robot for comaptibility calculations min: 0.0, default: 2.09, max: 3.14
+- \b "~cc_beta" : \b [double] angle from robot front to discard human for collision in comaptibility calculations min: 0.0, default: 1.57, max: 3.14
+- \b "~cc_min_scale" : \b [double] minimum scaling of velocities that is always allowed regardless if humans are too near min: 0.0, default: 0.5, max: 1.0
+- \b "~publish_predictions" : \b [bool] whether to publish visualization for human position prediction min: False, default: False, max: True
+- \b "~sim_time" : \b [double] The amount of time to roll trajectories out for in seconds min: 0.0, default: 1.7, max: std::numeric_limits<double>::infinity()
+- \b "~publish_curr_traj" : \b [bool] whether to publish visualization for predicted robot local path min: False, default: False, max: True
+- \b "~min_alert_dist_tracks_dyn" : \b [double] min_alert_dist_tracks_dyn min: 0.0, default: 0.75, max: 10.0
+- \b "~max_ang_range_tracks_dyn" : \b [double] max_ang_range_tracks_dyn min: 0.0, default: 0.67, max: 6.28
+- \b "~check_costmap_layers_dyn" : \b [bool] check_costmap_layers min: False, default: True, max: True
+- \b "~hr_message" : \b [str] The message used during the Human Robot Interaction phase min: , default: Excuse me, max: 
+- \b "~limit_vel_based_on_hri" : \b [bool] Limiting Velocities based on HRI min: False, default: False, max: True
+- \b "~max_lin_vel_hri" : \b [double] min_alert_dist_tracks_dyn min: 0.1, default: 0.3, max: 1.3
+- \b "~waiting_time_hri_message" : \b [double] min_alert_dist_tracks_dyn min: 0.1, default: 5.0, max: 50.3
+

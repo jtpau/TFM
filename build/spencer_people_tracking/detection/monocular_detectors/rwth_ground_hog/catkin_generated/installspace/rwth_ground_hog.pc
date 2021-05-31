@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/install
+
+Name: rwth_ground_hog
+Description: Description of rwth_ground_hog
+Version: 1.0.11
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

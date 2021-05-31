@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/install
+
+Name: asr_move_base
+Description: Description of asr_move_base
+Version: 1.13.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp dynamic_reconfigure

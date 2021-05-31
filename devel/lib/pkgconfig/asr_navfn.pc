@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: asr_navfn
+Description: Description of asr_navfn
+Version: 1.13.1
+Cflags: -I/home/jtpau/TFM/devel/include -I/home/jtpau/TFM/src/navegacion_asr/asr_navfn/include
+Libs: -L${prefix}/lib -lnavfn
+Requires: nav_core roscpp pluginlib

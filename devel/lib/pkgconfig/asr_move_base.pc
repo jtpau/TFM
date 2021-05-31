@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: asr_move_base
+Description: Description of asr_move_base
+Version: 1.16.3
+Cflags: -I/home/jtpau/TFM/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure geometry_msgs move_base_msgs nav_msgs roscpp

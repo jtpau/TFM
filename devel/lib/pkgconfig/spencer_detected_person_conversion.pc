@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: spencer_detected_person_conversion
+Description: Description of spencer_detected_person_conversion
+Version: 1.0.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy spencer_tracking_msgs

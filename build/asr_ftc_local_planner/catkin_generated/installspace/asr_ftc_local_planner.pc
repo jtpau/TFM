@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/install
+
+Name: asr_ftc_local_planner
+Description: Description of asr_ftc_local_planner
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lasr_ftc_local_planner
+Requires: dynamic_reconfigure pluginlib roscpp

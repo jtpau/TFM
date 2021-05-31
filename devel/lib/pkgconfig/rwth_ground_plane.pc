@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: rwth_ground_plane
+Description: Description of rwth_ground_plane
+Version: 1.0.11
+Cflags: -I/home/jtpau/TFM/src/spencer_people_tracking/utils/rwth_ground_plane/include
+Libs: -L${prefix}/lib 
+Requires: 

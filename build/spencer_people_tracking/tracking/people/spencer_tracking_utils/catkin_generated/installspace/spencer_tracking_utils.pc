@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/install
+
+Name: spencer_tracking_utils
+Description: Description of spencer_tracking_utils
+Version: 1.0.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy roscpp spencer_tracking_msgs

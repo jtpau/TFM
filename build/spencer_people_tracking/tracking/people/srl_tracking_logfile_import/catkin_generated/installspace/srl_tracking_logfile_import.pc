@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/install
+
+Name: srl_tracking_logfile_import
+Description: Description of srl_tracking_logfile_import
+Version: 1.0.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

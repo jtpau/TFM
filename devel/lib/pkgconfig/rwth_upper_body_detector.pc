@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: rwth_upper_body_detector
+Description: Description of rwth_upper_body_detector
+Version: 1.0.11
+Cflags: -I/home/jtpau/TFM/src/spencer_people_tracking/detection/rgbd_detectors/rwth_upper_body_detector/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge roscpp sensor_msgs std_msgs rwth_perception_people_msgs geometry_msgs image_transport message_filters visualization_msgs

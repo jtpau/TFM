@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: rwth_ground_hog
+Description: Description of rwth_ground_hog
+Version: 1.0.11
+Cflags: -I/home/jtpau/TFM/src/spencer_people_tracking/detection/monocular_detectors/rwth_ground_hog/include
+Libs: -L${prefix}/lib 
+Requires: 
