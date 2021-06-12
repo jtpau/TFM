@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(asr_ftc_local_planner_LIBRARIES ${asr_ftc_local_planner_LIBRARIES})
 
   _list_append_unique(asr_ftc_local_planner_LIBRARY_DIRS ${${asr_ftc_local_planner_dep}_LIBRARY_DIRS})
-  list(APPEND asr_ftc_local_planner_EXPORTED_TARGETS ${${asr_ftc_local_planner_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(asr_ftc_local_planner_EXPORTED_TARGETS ${${asr_ftc_local_planner_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

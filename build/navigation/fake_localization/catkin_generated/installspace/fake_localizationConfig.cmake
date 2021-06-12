@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(fake_localization_LIBRARIES ${fake_localization_LIBRARIES})
 
   _list_append_unique(fake_localization_LIBRARY_DIRS ${${fake_localization_dep}_LIBRARY_DIRS})
-  list(APPEND fake_localization_EXPORTED_TARGETS ${${fake_localization_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(fake_localization_EXPORTED_TARGETS ${${fake_localization_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

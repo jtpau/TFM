@@ -79,7 +79,7 @@ voxel_grid_tests_EXTERNAL_OBJECTS =
 
 /home/jtpau/TFM/devel/lib/voxel_grid/voxel_grid_tests: navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/test/voxel_grid_tests.cpp.o
 /home/jtpau/TFM/devel/lib/voxel_grid/voxel_grid_tests: navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/build.make
-/home/jtpau/TFM/devel/lib/voxel_grid/voxel_grid_tests: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/voxel_grid/voxel_grid_tests: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/voxel_grid/voxel_grid_tests: /home/jtpau/TFM/devel/lib/libvoxel_grid.so
 /home/jtpau/TFM/devel/lib/voxel_grid/voxel_grid_tests: /opt/ros/noetic/lib/libroscpp.so
 /home/jtpau/TFM/devel/lib/voxel_grid/voxel_grid_tests: /usr/lib/x86_64-linux-gnu/libpthread.so

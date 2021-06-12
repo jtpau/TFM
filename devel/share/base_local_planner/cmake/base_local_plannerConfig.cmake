@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(base_local_planner_LIBRARIES ${base_local_planner_LIBRARIES})
 
   _list_append_unique(base_local_planner_LIBRARY_DIRS ${${base_local_planner_dep}_LIBRARY_DIRS})
-  list(APPEND base_local_planner_EXPORTED_TARGETS ${${base_local_planner_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(base_local_planner_EXPORTED_TARGETS ${${base_local_planner_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "base_local_planner-msg-extras.cmake")

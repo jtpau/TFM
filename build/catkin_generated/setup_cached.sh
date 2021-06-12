@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD='/home/jtpau/TFM/build'
-export ROS_PACKAGE_PATH='/home/jtpau/TFM/src:/home/jtpau/Escritorio/TFM/src:/opt/ros/noetic/share'

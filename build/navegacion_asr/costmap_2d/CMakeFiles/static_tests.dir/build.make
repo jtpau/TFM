@@ -80,7 +80,7 @@ static_tests_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/costmap_2d/static_tests: navegacion_asr/costmap_2d/CMakeFiles/static_tests.dir/test/static_tests.cpp.o
 /home/jtpau/TFM/devel/lib/costmap_2d/static_tests: navegacion_asr/costmap_2d/CMakeFiles/static_tests.dir/build.make
 /home/jtpau/TFM/devel/lib/costmap_2d/static_tests: /home/jtpau/TFM/devel/lib/liblayers.so
-/home/jtpau/TFM/devel/lib/costmap_2d/static_tests: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/costmap_2d/static_tests: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/costmap_2d/static_tests: /home/jtpau/TFM/devel/lib/libcostmap_2d.so
 /home/jtpau/TFM/devel/lib/costmap_2d/static_tests: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/jtpau/TFM/devel/lib/costmap_2d/static_tests: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0

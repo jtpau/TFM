@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(rosbot_gazebo_LIBRARIES ${rosbot_gazebo_LIBRARIES})
 
   _list_append_unique(rosbot_gazebo_LIBRARY_DIRS ${${rosbot_gazebo_dep}_LIBRARY_DIRS})
-  list(APPEND rosbot_gazebo_EXPORTED_TARGETS ${${rosbot_gazebo_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(rosbot_gazebo_EXPORTED_TARGETS ${${rosbot_gazebo_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

@@ -154,7 +154,7 @@ base_local_planner_utest_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: navigation/base_local_planner/CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o
 /home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: navigation/base_local_planner/CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o
 /home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: navigation/base_local_planner/CMakeFiles/base_local_planner_utest.dir/build.make
-/home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: /home/jtpau/TFM/devel/lib/libtrajectory_planner_ros.so
 /home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: /home/jtpau/TFM/devel/lib/libbase_local_planner.so
 /home/jtpau/TFM/devel/lib/base_local_planner/base_local_planner_utest: /home/jtpau/TFM/devel/lib/liblayers.so

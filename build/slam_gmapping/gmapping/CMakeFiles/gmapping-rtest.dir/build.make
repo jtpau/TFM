@@ -123,7 +123,7 @@ gmapping__rtest_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/gmapping/gmapping-rtest: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/jtpau/TFM/devel/lib/gmapping/gmapping-rtest: /opt/ros/noetic/lib/libroslz4.so
 /home/jtpau/TFM/devel/lib/gmapping/gmapping-rtest: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/jtpau/TFM/devel/lib/gmapping/gmapping-rtest: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/gmapping/gmapping-rtest: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/gmapping/gmapping-rtest: slam_gmapping/gmapping/CMakeFiles/gmapping-rtest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jtpau/TFM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jtpau/TFM/devel/lib/gmapping/gmapping-rtest"
 	cd /home/jtpau/TFM/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmapping-rtest.dir/link.txt --verbose=$(VERBOSE)

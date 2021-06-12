@@ -3,9 +3,6 @@
 
 navigation/global_planner/CMakeFiles/planner.dir/src/plan_node.cpp.o
  /home/jtpau/TFM/devel/include/global_planner/GlobalPlannerConfig.h
- /home/jtpau/TFM/devel/include/navfn/MakeNavPlan.h
- /home/jtpau/TFM/devel/include/navfn/MakeNavPlanRequest.h
- /home/jtpau/TFM/devel/include/navfn/MakeNavPlanResponse.h
  /home/jtpau/TFM/src/navigation/costmap_2d/include/costmap_2d/cost_values.h
  /home/jtpau/TFM/src/navigation/costmap_2d/include/costmap_2d/costmap_2d.h
  /home/jtpau/TFM/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
@@ -60,6 +57,9 @@ navigation/global_planner/CMakeFiles/planner.dir/src/plan_node.cpp.o
  /opt/ros/noetic/include/nav_msgs/MapMetaData.h
  /opt/ros/noetic/include/nav_msgs/OccupancyGrid.h
  /opt/ros/noetic/include/nav_msgs/Path.h
+ /opt/ros/noetic/include/navfn/MakeNavPlan.h
+ /opt/ros/noetic/include/navfn/MakeNavPlanRequest.h
+ /opt/ros/noetic/include/navfn/MakeNavPlanResponse.h
  /opt/ros/noetic/include/pluginlib/class_desc.hpp
  /opt/ros/noetic/include/pluginlib/class_loader.hpp
  /opt/ros/noetic/include/pluginlib/class_loader_base.hpp

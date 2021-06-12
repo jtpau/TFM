@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(robot1_LIBRARIES ${robot1_LIBRARIES})
 
   _list_append_unique(robot1_LIBRARY_DIRS ${${robot1_dep}_LIBRARY_DIRS})
-  list(APPEND robot1_EXPORTED_TARGETS ${${robot1_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(robot1_EXPORTED_TARGETS ${${robot1_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "robot1-msg-extras.cmake")

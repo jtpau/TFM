@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(asr_move_base_LIBRARIES ${asr_move_base_LIBRARIES})
 
   _list_append_unique(asr_move_base_LIBRARY_DIRS ${${asr_move_base_dep}_LIBRARY_DIRS})
-  list(APPEND asr_move_base_EXPORTED_TARGETS ${${asr_move_base_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(asr_move_base_EXPORTED_TARGETS ${${asr_move_base_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

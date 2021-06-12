@@ -80,7 +80,7 @@ obstacle_tests_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/test/obstacle_tests.cpp.o
 /home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/build.make
 /home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: /home/jtpau/TFM/devel/lib/liblayers.so
-/home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: /home/jtpau/TFM/devel/lib/libcostmap_2d.so
 /home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/jtpau/TFM/devel/lib/costmap_2d/obstacle_tests: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0

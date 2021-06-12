@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(rosbot_navigation_LIBRARIES ${rosbot_navigation_LIBRARIES})
 
   _list_append_unique(rosbot_navigation_LIBRARY_DIRS ${${rosbot_navigation_dep}_LIBRARY_DIRS})
-  list(APPEND rosbot_navigation_EXPORTED_TARGETS ${${rosbot_navigation_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(rosbot_navigation_EXPORTED_TARGETS ${${rosbot_navigation_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

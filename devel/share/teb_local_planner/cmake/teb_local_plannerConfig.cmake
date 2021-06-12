@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(teb_local_planner_LIBRARIES ${teb_local_planner_LIBRARIES})
 
   _list_append_unique(teb_local_planner_LIBRARY_DIRS ${${teb_local_planner_dep}_LIBRARY_DIRS})
-  list(APPEND teb_local_planner_EXPORTED_TARGETS ${${teb_local_planner_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(teb_local_planner_EXPORTED_TARGETS ${${teb_local_planner_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "teb_local_planner-msg-extras.cmake")

@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(rosbot_description_LIBRARIES ${rosbot_description_LIBRARIES})
 
   _list_append_unique(rosbot_description_LIBRARY_DIRS ${${rosbot_description_dep}_LIBRARY_DIRS})
-  list(APPEND rosbot_description_EXPORTED_TARGETS ${${rosbot_description_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(rosbot_description_EXPORTED_TARGETS ${${rosbot_description_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

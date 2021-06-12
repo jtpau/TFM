@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(navfn_LIBRARIES ${navfn_LIBRARIES})
 
   _list_append_unique(navfn_LIBRARY_DIRS ${${navfn_dep}_LIBRARY_DIRS})
-  list(APPEND navfn_EXPORTED_TARGETS ${${navfn_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(navfn_EXPORTED_TARGETS ${${navfn_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "navfn-msg-extras.cmake")

@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(robot_setup_tf_LIBRARIES ${robot_setup_tf_LIBRARIES})
 
   _list_append_unique(robot_setup_tf_LIBRARY_DIRS ${${robot_setup_tf_dep}_LIBRARY_DIRS})
-  list(APPEND robot_setup_tf_EXPORTED_TARGETS ${${robot_setup_tf_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(robot_setup_tf_EXPORTED_TARGETS ${${robot_setup_tf_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

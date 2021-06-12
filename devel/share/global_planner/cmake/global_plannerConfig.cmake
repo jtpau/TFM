@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(global_planner_LIBRARIES ${global_planner_LIBRARIES})
 
   _list_append_unique(global_planner_LIBRARY_DIRS ${${global_planner_dep}_LIBRARY_DIRS})
-  list(APPEND global_planner_EXPORTED_TARGETS ${${global_planner_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(global_planner_EXPORTED_TARGETS ${${global_planner_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

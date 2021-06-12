@@ -79,7 +79,7 @@ line_iterator_EXTERNAL_OBJECTS =
 
 /home/jtpau/TFM/devel/lib/base_local_planner/line_iterator: navegacion_asr/base_local_planner/CMakeFiles/line_iterator.dir/test/line_iterator_test.cpp.o
 /home/jtpau/TFM/devel/lib/base_local_planner/line_iterator: navegacion_asr/base_local_planner/CMakeFiles/line_iterator.dir/build.make
-/home/jtpau/TFM/devel/lib/base_local_planner/line_iterator: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/base_local_planner/line_iterator: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/base_local_planner/line_iterator: navegacion_asr/base_local_planner/CMakeFiles/line_iterator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jtpau/TFM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jtpau/TFM/devel/lib/base_local_planner/line_iterator"
 	cd /home/jtpau/TFM/build/navegacion_asr/base_local_planner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/line_iterator.dir/link.txt --verbose=$(VERBOSE)

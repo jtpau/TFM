@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(costmap_2d_LIBRARIES ${costmap_2d_LIBRARIES})
 
   _list_append_unique(costmap_2d_LIBRARY_DIRS ${${costmap_2d_dep}_LIBRARY_DIRS})
-  list(APPEND costmap_2d_EXPORTED_TARGETS ${${costmap_2d_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(costmap_2d_EXPORTED_TARGETS ${${costmap_2d_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "costmap_2d-msg-extras.cmake")

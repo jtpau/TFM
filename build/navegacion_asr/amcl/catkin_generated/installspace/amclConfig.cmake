@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(amcl_LIBRARIES ${amcl_LIBRARIES})
 
   _list_append_unique(amcl_LIBRARY_DIRS ${${amcl_dep}_LIBRARY_DIRS})
-  list(APPEND amcl_EXPORTED_TARGETS ${${amcl_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(amcl_EXPORTED_TARGETS ${${amcl_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(carrot_planner_LIBRARIES ${carrot_planner_LIBRARIES})
 
   _list_append_unique(carrot_planner_LIBRARY_DIRS ${${carrot_planner_dep}_LIBRARY_DIRS})
-  list(APPEND carrot_planner_EXPORTED_TARGETS ${${carrot_planner_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(carrot_planner_EXPORTED_TARGETS ${${carrot_planner_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

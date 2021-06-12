@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(nav_core_LIBRARIES ${nav_core_LIBRARIES})
 
   _list_append_unique(nav_core_LIBRARY_DIRS ${${nav_core_dep}_LIBRARY_DIRS})
-  list(APPEND nav_core_EXPORTED_TARGETS ${${nav_core_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(nav_core_EXPORTED_TARGETS ${${nav_core_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

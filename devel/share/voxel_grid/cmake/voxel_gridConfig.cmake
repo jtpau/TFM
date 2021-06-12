@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(voxel_grid_LIBRARIES ${voxel_grid_LIBRARIES})
 
   _list_append_unique(voxel_grid_LIBRARY_DIRS ${${voxel_grid_dep}_LIBRARY_DIRS})
-  list(APPEND voxel_grid_EXPORTED_TARGETS ${${voxel_grid_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(voxel_grid_EXPORTED_TARGETS ${${voxel_grid_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

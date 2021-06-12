@@ -144,12 +144,6 @@ navfn/potarr_point.h
 
 /home/jtpau/TFM/src/navegacion_asr/navfn/include/navfn/potarr_point.h
 
-/home/jtpau/TFM/src/navegacion_asr/navfn/src/navfn.cpp
-navfn/navfn.h
--
-ros/console.h
--
-
 /home/jtpau/TFM/src/navegacion_asr/navfn/src/navfn_ros.cpp
 navfn/navfn_ros.h
 -

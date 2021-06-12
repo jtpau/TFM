@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(clear_costmap_recovery_LIBRARIES ${clear_costmap_recovery_LIBRARIES})
 
   _list_append_unique(clear_costmap_recovery_LIBRARY_DIRS ${${clear_costmap_recovery_dep}_LIBRARY_DIRS})
-  list(APPEND clear_costmap_recovery_EXPORTED_TARGETS ${${clear_costmap_recovery_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(clear_costmap_recovery_EXPORTED_TARGETS ${${clear_costmap_recovery_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

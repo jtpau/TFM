@@ -80,7 +80,7 @@ clear_tester_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/test/clear_tester.cpp.o
 /home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/build.make
 /home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: /home/jtpau/TFM/devel/lib/libclear_costmap_recovery.so
-/home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: /home/jtpau/TFM/devel/lib/liblayers.so
 /home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: /home/jtpau/TFM/devel/lib/libcostmap_2d.so
 /home/jtpau/TFM/devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0

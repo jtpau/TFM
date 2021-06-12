@@ -94,7 +94,7 @@ path_calc_test_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/navfn/path_calc_test: navegacion_asr/navfn/test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o
 /home/jtpau/TFM/devel/lib/navfn/path_calc_test: navegacion_asr/navfn/test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o
 /home/jtpau/TFM/devel/lib/navfn/path_calc_test: navegacion_asr/navfn/test/CMakeFiles/path_calc_test.dir/build.make
-/home/jtpau/TFM/devel/lib/navfn/path_calc_test: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/navfn/path_calc_test: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/navfn/path_calc_test: /home/jtpau/TFM/devel/lib/libnavfn.so
 /home/jtpau/TFM/devel/lib/navfn/path_calc_test: /home/jtpau/TFM/devel/lib/liblayers.so
 /home/jtpau/TFM/devel/lib/navfn/path_calc_test: /home/jtpau/TFM/devel/lib/libcostmap_2d.so

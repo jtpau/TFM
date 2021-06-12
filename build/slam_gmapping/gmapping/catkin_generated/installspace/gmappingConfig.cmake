@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(gmapping_LIBRARIES ${gmapping_LIBRARIES})
 
   _list_append_unique(gmapping_LIBRARY_DIRS ${${gmapping_dep}_LIBRARY_DIRS})
-  list(APPEND gmapping_EXPORTED_TARGETS ${${gmapping_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(gmapping_EXPORTED_TARGETS ${${gmapping_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

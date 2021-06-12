@@ -80,7 +80,7 @@ costmap_tester_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: navigation/costmap_2d/CMakeFiles/costmap_tester.dir/test/costmap_tester.cpp.o
 /home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: navigation/costmap_2d/CMakeFiles/costmap_tester.dir/build.make
 /home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: /home/jtpau/TFM/devel/lib/libcostmap_2d.so
-/home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/jtpau/TFM/devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0

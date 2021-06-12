@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(move_base_LIBRARIES ${move_base_LIBRARIES})
 
   _list_append_unique(move_base_LIBRARY_DIRS ${${move_base_dep}_LIBRARY_DIRS})
-  list(APPEND move_base_EXPORTED_TARGETS ${${move_base_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(move_base_EXPORTED_TARGETS ${${move_base_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

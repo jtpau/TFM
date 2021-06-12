@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(move_slow_and_clear_LIBRARIES ${move_slow_and_clear_LIBRARIES})
 
   _list_append_unique(move_slow_and_clear_LIBRARY_DIRS ${${move_slow_and_clear_dep}_LIBRARY_DIRS})
-  list(APPEND move_slow_and_clear_EXPORTED_TARGETS ${${move_slow_and_clear_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(move_slow_and_clear_EXPORTED_TARGETS ${${move_slow_and_clear_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

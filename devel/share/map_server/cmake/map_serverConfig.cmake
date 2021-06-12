@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(map_server_LIBRARIES ${map_server_LIBRARIES})
 
   _list_append_unique(map_server_LIBRARY_DIRS ${${map_server_dep}_LIBRARY_DIRS})
-  list(APPEND map_server_EXPORTED_TARGETS ${${map_server_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(map_server_EXPORTED_TARGETS ${${map_server_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

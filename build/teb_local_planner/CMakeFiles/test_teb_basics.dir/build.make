@@ -79,7 +79,7 @@ test_teb_basics_EXTERNAL_OBJECTS =
 
 /home/jtpau/TFM/devel/lib/teb_local_planner/test_teb_basics: teb_local_planner/CMakeFiles/test_teb_basics.dir/test/teb_basics.cpp.o
 /home/jtpau/TFM/devel/lib/teb_local_planner/test_teb_basics: teb_local_planner/CMakeFiles/test_teb_basics.dir/build.make
-/home/jtpau/TFM/devel/lib/teb_local_planner/test_teb_basics: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/teb_local_planner/test_teb_basics: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/teb_local_planner/test_teb_basics: /home/jtpau/TFM/devel/lib/libteb_local_planner.so
 /home/jtpau/TFM/devel/lib/teb_local_planner/test_teb_basics: /opt/ros/noetic/lib/libg2o_csparse_extension.so
 /home/jtpau/TFM/devel/lib/teb_local_planner/test_teb_basics: /opt/ros/noetic/lib/libg2o_core.so

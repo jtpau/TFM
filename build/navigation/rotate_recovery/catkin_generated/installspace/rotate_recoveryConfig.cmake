@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(rotate_recovery_LIBRARIES ${rotate_recovery_LIBRARIES})
 
   _list_append_unique(rotate_recovery_LIBRARY_DIRS ${${rotate_recovery_dep}_LIBRARY_DIRS})
-  list(APPEND rotate_recovery_EXPORTED_TARGETS ${${rotate_recovery_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(rotate_recovery_EXPORTED_TARGETS ${${rotate_recovery_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

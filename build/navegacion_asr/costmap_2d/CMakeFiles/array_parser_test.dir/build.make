@@ -79,7 +79,7 @@ array_parser_test_EXTERNAL_OBJECTS =
 
 /home/jtpau/TFM/devel/lib/costmap_2d/array_parser_test: navegacion_asr/costmap_2d/CMakeFiles/array_parser_test.dir/test/array_parser_test.cpp.o
 /home/jtpau/TFM/devel/lib/costmap_2d/array_parser_test: navegacion_asr/costmap_2d/CMakeFiles/array_parser_test.dir/build.make
-/home/jtpau/TFM/devel/lib/costmap_2d/array_parser_test: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/costmap_2d/array_parser_test: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/costmap_2d/array_parser_test: /home/jtpau/TFM/devel/lib/libcostmap_2d.so
 /home/jtpau/TFM/devel/lib/costmap_2d/array_parser_test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/jtpau/TFM/devel/lib/costmap_2d/array_parser_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0

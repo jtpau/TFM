@@ -94,7 +94,7 @@ map_server_utest_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/map_server/map_server_utest: map_server/CMakeFiles/map_server_utest.dir/test/utest.cpp.o
 /home/jtpau/TFM/devel/lib/map_server/map_server_utest: map_server/CMakeFiles/map_server_utest.dir/test/test_constants.cpp.o
 /home/jtpau/TFM/devel/lib/map_server/map_server_utest: map_server/CMakeFiles/map_server_utest.dir/build.make
-/home/jtpau/TFM/devel/lib/map_server/map_server_utest: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/map_server/map_server_utest: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/map_server/map_server_utest: /home/jtpau/TFM/devel/lib/libmap_server_image_loader.so
 /home/jtpau/TFM/devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 /home/jtpau/TFM/devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDL.so

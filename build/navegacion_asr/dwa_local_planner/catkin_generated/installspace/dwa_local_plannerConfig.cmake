@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(dwa_local_planner_LIBRARIES ${dwa_local_planner_LIBRARIES})
 
   _list_append_unique(dwa_local_planner_LIBRARY_DIRS ${${dwa_local_planner_dep}_LIBRARY_DIRS})
-  list(APPEND dwa_local_planner_EXPORTED_TARGETS ${${dwa_local_planner_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(dwa_local_planner_EXPORTED_TARGETS ${${dwa_local_planner_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

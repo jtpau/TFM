@@ -80,7 +80,7 @@ footprint_tests_EXTERNAL_OBJECTS =
 /home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: navigation/costmap_2d/CMakeFiles/footprint_tests.dir/test/footprint_tests.cpp.o
 /home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: navigation/costmap_2d/CMakeFiles/footprint_tests.dir/build.make
 /home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: /home/jtpau/TFM/devel/lib/libcostmap_2d.so
-/home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: lib/libgtest.so
+/home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: gtest/lib/libgtest.so
 /home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/jtpau/TFM/devel/lib/costmap_2d/footprint_tests: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
