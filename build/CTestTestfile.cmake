@@ -7,6 +7,7 @@
 subdirs("gtest")
 subdirs("navigation/navigation")
 subdirs("slam_gmapping/slam_gmapping")
+subdirs("turtlebot_gazebo_multiple")
 subdirs("map_server")
 subdirs("slam_gmapping/gmapping")
 subdirs("robot1")

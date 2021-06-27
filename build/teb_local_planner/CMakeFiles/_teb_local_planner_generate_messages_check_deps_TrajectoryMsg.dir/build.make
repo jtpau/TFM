@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jtpau/TFM/build
 include teb_local_planner/CMakeFiles/_teb_local_planner_generate_messages_check_deps_TrajectoryMsg.dir/progress.make
 
 teb_local_planner/CMakeFiles/_teb_local_planner_generate_messages_check_deps_TrajectoryMsg:
-	cd /home/jtpau/TFM/build/teb_local_planner && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py teb_local_planner /home/jtpau/TFM/src/teb_local_planner/msg/TrajectoryMsg.msg std_msgs/Header:geometry_msgs/Twist:geometry_msgs/Point:geometry_msgs/Quaternion:teb_local_planner/TrajectoryPointMsg:geometry_msgs/Vector3:geometry_msgs/Pose
+	cd /home/jtpau/TFM/build/teb_local_planner && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py teb_local_planner /home/jtpau/TFM/src/teb_local_planner/msg/TrajectoryMsg.msg geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Vector3:teb_local_planner/TrajectoryPointMsg:geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/Twist
 
 _teb_local_planner_generate_messages_check_deps_TrajectoryMsg: teb_local_planner/CMakeFiles/_teb_local_planner_generate_messages_check_deps_TrajectoryMsg
 _teb_local_planner_generate_messages_check_deps_TrajectoryMsg: teb_local_planner/CMakeFiles/_teb_local_planner_generate_messages_check_deps_TrajectoryMsg.dir/build.make
