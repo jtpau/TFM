@@ -1,2 +1,2 @@
-set(base_local_planner_MESSAGE_FILES "/home/jtpau/TFM/src/navigation/base_local_planner/msg/Position2DInt.msg")
+set(base_local_planner_MESSAGE_FILES "/home/jtpau/TFM/src/navegacion_asr/base_local_planner/msg/Position2DInt.msg")
 set(base_local_planner_SERVICE_FILES "")

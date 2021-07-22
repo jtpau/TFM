@@ -3,6 +3,6 @@ prefix=/home/jtpau/TFM/devel
 Name: carrot_planner
 Description: Description of carrot_planner
 Version: 1.17.1
-Cflags: -I/home/jtpau/TFM/src/navigation/carrot_planner/include
+Cflags: -I/home/jtpau/TFM/src/navegacion_asr/carrot_planner/include
 Libs: -L${prefix}/lib -lcarrot_planner
 Requires: angles base_local_planner costmap_2d nav_core pluginlib roscpp tf2 tf2_ros

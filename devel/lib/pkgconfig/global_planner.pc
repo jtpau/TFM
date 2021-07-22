@@ -3,6 +3,6 @@ prefix=/home/jtpau/TFM/devel
 Name: global_planner
 Description: Description of global_planner
 Version: 1.17.1
-Cflags: -I/home/jtpau/TFM/devel/include -I/home/jtpau/TFM/src/navigation/global_planner/include
+Cflags: -I/home/jtpau/TFM/devel/include -I/home/jtpau/TFM/src/navegacion_asr/global_planner/include
 Libs: -L${prefix}/lib -lglobal_planner
 Requires: costmap_2d dynamic_reconfigure geometry_msgs nav_core navfn nav_msgs pluginlib roscpp tf2_ros

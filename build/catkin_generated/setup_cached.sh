@@ -5,8 +5,6 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
-export TURTLEBOT_GAZEBO_MAP_FILE='/maps/playground.yaml'
-export TURTLEBOT_GAZEBO_WORLD_FILE='/worlds/playground.world'
 
 # modified environment variables
 export PWD='/home/jtpau/TFM/build'

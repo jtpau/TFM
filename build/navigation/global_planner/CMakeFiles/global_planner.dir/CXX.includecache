@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/jtpau/TFM/devel/include/global_planner/GlobalPlannerConfig.h
-dynamic_reconfigure/config_tools.h
--
-limits
--
-ros/node_handle.h
--
-dynamic_reconfigure/ConfigDescription.h
--
-dynamic_reconfigure/ParamDescription.h
--
-dynamic_reconfigure/Group.h
--
-dynamic_reconfigure/config_init_mutex.h
--
-boost/any.hpp
--
-
 /home/jtpau/TFM/src/navigation/costmap_2d/include/costmap_2d/cost_values.h
 
 /home/jtpau/TFM/src/navigation/costmap_2d/include/costmap_2d/costmap_2d.h
@@ -776,6 +758,24 @@ ros/serialization.h
 ros/builtin_message_traits.h
 -
 ros/message_operations.h
+-
+
+/opt/ros/noetic/include/global_planner/GlobalPlannerConfig.h
+dynamic_reconfigure/config_tools.h
+-
+limits
+-
+ros/node_handle.h
+-
+dynamic_reconfigure/ConfigDescription.h
+-
+dynamic_reconfigure/ParamDescription.h
+-
+dynamic_reconfigure/Group.h
+-
+dynamic_reconfigure/config_init_mutex.h
+-
+boost/any.hpp
 -
 
 /opt/ros/noetic/include/map_msgs/OccupancyGridUpdate.h

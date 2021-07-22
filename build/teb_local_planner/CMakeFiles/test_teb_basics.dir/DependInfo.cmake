@@ -26,10 +26,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/jtpau/TFM/src/teb_local_planner/BEFORE"
   "/usr/include/suitesparse"
   "/opt/ros/noetic/include/g2o"
-  "/home/jtpau/TFM/src/navigation/base_local_planner/include"
-  "/home/jtpau/TFM/src/navigation/costmap_2d/include"
-  "/home/jtpau/TFM/src/navigation/voxel_grid/include"
-  "/home/jtpau/TFM/src/navigation/nav_core/include"
+  "/home/jtpau/TFM/src/navegacion_asr/base_local_planner/include"
+  "/home/jtpau/TFM/src/navegacion_asr/costmap_2d/include"
+  "/home/jtpau/TFM/src/navegacion_asr/voxel_grid/include"
+  "/home/jtpau/TFM/src/navegacion_asr/asr_nav_core/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -41,11 +41,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/jtpau/TFM/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "/home/jtpau/TFM/build/teb_local_planner/CMakeFiles/teb_local_planner.dir/DependInfo.cmake"
-  "/home/jtpau/TFM/build/navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/DependInfo.cmake"
-  "/home/jtpau/TFM/build/navigation/base_local_planner/CMakeFiles/base_local_planner.dir/DependInfo.cmake"
-  "/home/jtpau/TFM/build/navigation/costmap_2d/CMakeFiles/layers.dir/DependInfo.cmake"
-  "/home/jtpau/TFM/build/navigation/costmap_2d/CMakeFiles/costmap_2d.dir/DependInfo.cmake"
-  "/home/jtpau/TFM/build/navigation/voxel_grid/CMakeFiles/voxel_grid.dir/DependInfo.cmake"
+  "/home/jtpau/TFM/build/navegacion_asr/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/DependInfo.cmake"
+  "/home/jtpau/TFM/build/navegacion_asr/base_local_planner/CMakeFiles/base_local_planner.dir/DependInfo.cmake"
+  "/home/jtpau/TFM/build/navegacion_asr/costmap_2d/CMakeFiles/layers.dir/DependInfo.cmake"
+  "/home/jtpau/TFM/build/navegacion_asr/costmap_2d/CMakeFiles/costmap_2d.dir/DependInfo.cmake"
+  "/home/jtpau/TFM/build/navegacion_asr/voxel_grid/CMakeFiles/voxel_grid.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
