@@ -1,0 +1,14 @@
+EBandPlannerROS:
+ eband_significant_force_lower_bound: 0.05
+ costmap_weight: 50
+ max_vel_lin: 0.7
+ max_vel_th: 1.2
+ min_vel_lin: 0.2
+ min_vel_th: 0.5
+ max_acceleration: 0.4
+ max_translational_acceleration: 0.4
+ max_rotational_acceleration: 0.8
+ Ctrl_Rate: 100
+ bubble_velocity_multiplier: 0.2 
+ xy_goal_tolerance: 0.2
+ yaw_goal_tolerance: 0.1

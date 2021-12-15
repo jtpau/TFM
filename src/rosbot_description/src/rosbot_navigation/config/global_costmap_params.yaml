@@ -1,0 +1,36 @@
+global_costmap:
+  update_frequency: 0.5
+  publish_frequency: 1.5
+  transform_tolerance: 0.5
+  width: 30
+  height: 35
+  origin_x: -7.5
+  origin_y: -7.5
+  static_map: false
+  rolling_window: true
+  inflation_radius: 0.5
+  resolution: 0.01
+  max_obstacle_height: 1.0
+  cost_scaling_factor: 100.0
+  
+  
+  ### Ars #####
+move_base/global_costmap:
+
+  update_frequency: 2.0
+  publish_frequency: 2.0
+  static_map: true
+  transform_tolerance: 0.5
+  width: 30
+  height: 35
+  origin_x: -7.5
+  origin_y: -7.5
+  rolling_window: true
+  inflation_radius: 0.5
+  resolution: 0.01
+  max_obstacle_height: 1.0
+  cost_scaling_factor: 100.0
+global_costmap/obstacle_layer:
+  enabled: true
+  
+

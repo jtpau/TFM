@@ -1,0 +1,11 @@
+ DWAPlannerROS:
+    acc_lim_x: 2.5  
+    acc_lim_theta: 1.0 
+    max_vel_x: 0.5
+    max_vel_theta: 2.5  
+    sim_granularity: 0.025
+    sim_time: 1.7 
+    dwa: True
+    xy_goal_tolerance: 0.2
+    yaw_goal_tolerance: 0.1 
+       
