@@ -1,0 +1,8 @@
+prefix=/home/jtpau/TFM/devel
+
+Name: asr_mild_kinematic_chain
+Description: Description of asr_mild_kinematic_chain
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
