@@ -1,0 +1,125 @@
+#!/bin/bash
+
+##tolerancias de destino 0.2 posicion ; 0.1 orientacion
+
+
+#POSICION INICIAL.
+if [[ "$1" -eq 0 ]]; then
+rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'map'
+pose:
+  position:
+    x: 0.013
+    y: -0.002
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.7
+    w: 0.713" 
+
+
+
+
+
+###PRIMER TARGET.
+elif [[ "$1" -eq 1 ]]; then
+rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'map'
+pose:
+  position:
+    x: -8.56
+    y: -9.56
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.77
+    w: 0.63" 
+
+###SEGUNDO TARGET.
+elif [[ "$1" -eq 2 ]]; then
+rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'map'
+pose:
+  position:
+    x: 4.31
+    y: 5.5
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.12
+    w: 1.0"
+    
+##TERCER TARGET.
+elif [[ "$1" -eq 3 ]]; then
+rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'map'
+pose:
+  position:
+    x: 2.02
+    y: -8.68
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.83
+    w: 0.55"
+    
+###CUARTO TARGET.
+elif [[ "$1" -eq 4 ]]; then
+rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'map'
+pose:
+  position:
+    x: -5.47
+    y: -0.41
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 1.0
+    w: 0.53"
+    
+###QUINTO TARGET.
+elif [[ "$1" -eq 5 ]]; then
+rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'map'
+pose:
+  position:
+    x: -5.73
+    y: -8.91
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: -0.7
+    w: 0.716"
+fi    
+^C
+
