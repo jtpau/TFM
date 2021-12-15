@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(asr_mild_navigation_LIBRARIES ${asr_mild_navigation_LIBRARIES})
 
   _list_append_unique(asr_mild_navigation_LIBRARY_DIRS ${${asr_mild_navigation_dep}_LIBRARY_DIRS})
-  list(APPEND asr_mild_navigation_EXPORTED_TARGETS ${${asr_mild_navigation_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(asr_mild_navigation_EXPORTED_TARGETS ${${asr_mild_navigation_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")
